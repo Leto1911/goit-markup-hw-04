@@ -106,10 +106,10 @@ img {
 .head-list .link:active {
   color: #404bbf;
 }
-.studio-link {
+.link.studio-link {
   position: relative;
-  color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #404bbf;
 }
 
 .studio-link::after {
@@ -155,7 +155,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/peopleoff.jpg);
+    url(../images/peopleoffice.jpg);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   background-color: #2e2f42;
   padding: 188px 0;
@@ -186,7 +186,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover {
   background-color: #404bbf;
@@ -203,6 +203,16 @@ img {
 .feature-list {
   display: flex;
   gap: 24px;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 .feature-title {
   margin-bottom: 8px;
@@ -249,6 +259,8 @@ img {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .name-container {
   padding: 32px 0;
