@@ -389,15 +389,16 @@ img {
   max-width: 1440px;
   background-color: #2e2f42;
   padding: 100px 0;
-  .container-footer-family {
-    display: flex;
-    align-items: baseline;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 1158px;
-    margin: 0 auto;
-  }
 }
+.container-footer-family {
+  display: flex;
+  align-items: baseline;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1158px;
+  margin: 0 auto;
+}
+
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
