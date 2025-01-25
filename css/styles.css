@@ -389,6 +389,14 @@ img {
   max-width: 1440px;
   background-color: #2e2f42;
   padding: 100px 0;
+  .container-footer-family {
+    display: flex;
+    align-items: baseline;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1158px;
+    margin: 0 auto;
+  }
 }
 .logo-footer {
   display: inline-block;
@@ -412,23 +420,17 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.container-footer-family {
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1158px;
-  margin: 0 auto;
-  display: flex;
-  align-items: baseline;
+
+.container-footer {
+  margin-right: 120px;
 }
-.container-footer-social {
-  margin-left: 120px;
-}
+
 .footer-social-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
